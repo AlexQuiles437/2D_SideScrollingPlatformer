@@ -34,7 +34,7 @@
   },
   "name":"2D SidescrollingPlatformer",
   "resources":[
-    {"id":{"name":"Floor","path":"objects/Floor/Floor.yy",},},
+    {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},},
     {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"SPR_Player","path":"sprites/SPR_Player/SPR_Player.yy",},},
