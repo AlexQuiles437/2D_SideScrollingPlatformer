@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"Object3",
-  "eventList":[],
+  "%Name":"obj_button_parent",
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Object3",
+  "name":"obj_button_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"2D SidescrollingPlatformer",
-    "path":"2D SidescrollingPlatformer.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_button_play",
+    "path":"objects/obj_button_play/obj_button_play.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite9",
+    "path":"sprites/Sprite9/Sprite9.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
