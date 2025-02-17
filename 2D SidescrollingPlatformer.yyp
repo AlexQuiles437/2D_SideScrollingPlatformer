@@ -30,7 +30,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.4.1.152",
+    "IDEVersion":"2024.11.0.179",
   },
   "name":"2D SidescrollingPlatformer",
   "resources":[
@@ -40,10 +40,15 @@
     {"id":{"name":"Obj_Coin","path":"objects/Obj_Coin/Obj_Coin.yy",},},
     {"id":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},},
     {"id":{"name":"Obj_HUD_coins","path":"objects/Obj_HUD_coins/Obj_HUD_coins.yy",},},
+    {"id":{"name":"Obj_label_parent","path":"objects/Obj_label_parent/Obj_label_parent.yy",},},
+    {"id":{"name":"obj_label_text1","path":"objects/obj_label_text1/obj_label_text1.yy",},},
+    {"id":{"name":"obj_label_text2","path":"objects/obj_label_text2/obj_label_text2.yy",},},
+    {"id":{"name":"obj_playbutton2","path":"objects/obj_playbutton2/obj_playbutton2.yy",},},
     {"id":{"name":"Obj_Player","path":"objects/Obj_Player/Obj_Player.yy",},},
     {"id":{"name":"Obj_Star","path":"objects/Obj_Star/Obj_Star.yy",},},
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Title","path":"rooms/Title/Title.yy",},},
     {"id":{"name":"spr_coin_hud","path":"sprites/spr_coin_hud/spr_coin_hud.yy",},},
     {"id":{"name":"Spr_coin","path":"sprites/Spr_coin/Spr_coin.yy",},},
     {"id":{"name":"spr_player_idle","path":"sprites/spr_player_idle/spr_player_idle.yy",},},
@@ -58,6 +63,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
+    {"roomId":{"name":"Title","path":"rooms/Title/Title.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "templateType":"game",
