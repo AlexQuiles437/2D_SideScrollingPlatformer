@@ -1,6 +1,6 @@
-/// @DnDAction : YoYo Games.Movement.move_and_collide
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 0BDC645B
-/// @DnDArgument : "object" "Obj_Star"
-/// @DnDSaveInfo : "object" "Obj_Star"
-move_and_collide(0, 0, Obj_Star,4,0,0,-1,-1);
+/// @DnDHash : 40FB1838
+/// @DnDArgument : "expr" "16"
+/// @DnDArgument : "var" "walk_speed"
+walk_speed = 16;
