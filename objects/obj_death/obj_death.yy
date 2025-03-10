@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_HUD_coins",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_death",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_HUD_coins",
+  "name":"obj_death",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_coin_hud",
-    "path":"sprites/spr_coin_hud/spr_coin_hud.yy",
+    "name":"Sprite12",
+    "path":"sprites/Sprite12/Sprite12.yy",
   },
   "spriteMaskId":null,
   "visible":true,

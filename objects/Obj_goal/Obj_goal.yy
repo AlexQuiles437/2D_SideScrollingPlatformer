@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_HUD_coins",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Obj_goal",
+  "eventList":[],
   "managed":true,
-  "name":"Obj_HUD_coins",
+  "name":"Obj_goal",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_coin_hud",
-    "path":"sprites/spr_coin_hud/spr_coin_hud.yy",
+    "name":"Spr_goal",
+    "path":"sprites/Spr_goal/Spr_goal.yy",
   },
   "spriteMaskId":null,
   "visible":true,
