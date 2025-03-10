@@ -54,6 +54,7 @@
     {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Title","path":"rooms/Title/Title.yy",},},
+    {"id":{"name":"Pickup_Coin","path":"sounds/Pickup_Coin/Pickup_Coin.yy",},},
     {"id":{"name":"spr_coin_hud","path":"sprites/spr_coin_hud/spr_coin_hud.yy",},},
     {"id":{"name":"Spr_coin","path":"sprites/Spr_coin/Spr_coin.yy",},},
     {"id":{"name":"spr_enemy_idle_1","path":"sprites/spr_enemy_idle_1/spr_enemy_idle_1.yy",},},
