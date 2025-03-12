@@ -64,6 +64,15 @@ if ((l36E0EDC3_0 > 0))
 	{
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
+		/// @DnDHash : 623D5065
+		/// @DnDComment : reverse movement
+		/// @DnDParent : 0634CF2B
+		/// @DnDArgument : "expr" "move_x * -1"
+		/// @DnDArgument : "var" "move_x"
+		move_x = move_x * -1;
+	
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
 		/// @DnDHash : 75D2EEA3
 		/// @DnDComment : Jump
 		/// @DnDParent : 0634CF2B
