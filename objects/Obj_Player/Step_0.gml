@@ -76,6 +76,25 @@ if ((l36E0EDC3_0 > 0))
 		/// @DnDArgument : "var" "move_y"
 		move_y = -jump_speed;
 	}
+
+	/// @DnDAction : YoYo Games.Gamepad.If_Gamepad_Button_Pressed
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 72CB5C7C
+	/// @DnDParent : 36E0EDC3
+	/// @DnDArgument : "btn" "gp_face1"
+	var l72CB5C7C_0 = 0;
+	var l72CB5C7C_1 = gp_face1;
+	if(gamepad_is_connected(l72CB5C7C_0) && gamepad_button_check_pressed(l72CB5C7C_0, l72CB5C7C_1))
+	{
+		/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 0B151BD6
+		/// @DnDComment : Jump
+		/// @DnDParent : 72CB5C7C
+		/// @DnDArgument : "expr" "-jump_speed"
+		/// @DnDArgument : "var" "move_y"
+		move_y = -jump_speed;
+	}
 }
 
 /// @DnDAction : YoYo Games.Common.Else
